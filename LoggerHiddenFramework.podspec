@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "LoggerHiddenFramework"
-  spec.version      = "0.0.4"
+  spec.version      = "0.0.5"
   spec.summary      = "This is LoggerHiddenFrameworkcto log ."
   spec.description  = <<-DESC
 This framework will hide all its implementation and won't allow user to see the source code
