@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "LoggerHiddenFramework"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "This is LoggerHiddenFrameworkcto log ."
   spec.description  = <<-DESC
 This framework will hide all its implementation and won't allow user to see the source code
@@ -17,7 +17,7 @@ This framework will hide all its implementation and won't allow user to see the 
 
   spec.homepage     = "https://github.com/ddnaik"
   spec.license      = { :type => "MIT", :file => "license" }
-
+  spec.swift_version = '4.1'
   spec.author             = { "Mac" => "deepesh.naik.framework@gmail.com" }
   spec.ios.deployment_target = "15.0"
   spec.ios.vendored_framework = "HiddenFramework.framework"
