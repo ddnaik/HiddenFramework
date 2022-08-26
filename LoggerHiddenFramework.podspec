@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "LoggerHiddenFramework"
-  spec.version      = "0.0.5"
+  spec.version      = "0.0.6"
   spec.summary      = "This is LoggerHiddenFrameworkcto log ."
   spec.description  = <<-DESC
 This framework will hide all its implementation and won't allow user to see the source code
@@ -21,7 +21,7 @@ This framework will hide all its implementation and won't allow user to see the 
   spec.author             = { "Mac" => "deepesh.naik.framework@gmail.com" }
   spec.ios.deployment_target = "15.0"
   spec.ios.vendored_framework = "HiddenFramework.framework"
-  spec.source       = { :http => "https://www.dropbox.com/s/ozfrj6fsmya2209/HiddenFramework.zip?dl=1" }
+  spec.source       = { :http => "https://www.dropbox.com/s/gjtksvj9tcbv1qc/HiddenFramework0.0.6.zip?dl=1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -74,7 +74,27 @@ This framework will hide all its implementation and won't allow user to see the 
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-   spec.dependency "Alamofire", "~> 5.6.1"
-   
+  # spec.dependency "Alamofire", "~> 5.6.1"
+   spec.dependency "Alamofire", "~> 5.4"
+  spec.dependency "GooglePlaces"
+  spec.dependency "Socket.IO-Client-Swift", "~> 15.2.0"
+  spec.dependency "AlgoliaSearchClient", "~> 8.0"
+  spec.dependency "SDWebImageSwiftUI"
+  spec.dependency "Buglife"
+  spec.dependency "Firebase/Crashlytics"
+  spec.dependency "lottie-ios"
+  spec.dependency "Segment-Appboy"
+  spec.dependency "Segment-Firebase"
+  
+  spec.dependency "Rollbar", "~> 1.4.2"
+  spec.dependency "Branch"
+  
+  spec.dependency "ZendeskAnswerBotSDK" 
+  spec.dependency "ZendeskChatSDK"      
+  spec.dependency "ZendeskSupportSDK"  
+  
+  
+  spec.dependency "GoogleTagManager"
+
 
 end
